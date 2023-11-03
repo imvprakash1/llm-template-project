@@ -6,4 +6,4 @@ import Home from './components/Home.vue'
   <Home />
 </template>
 
-<style scoped></style>
+<style></style>

@@ -1,6 +1,6 @@
 <template>
-  <draggable v-model="userPrompt" group="promptTemplates">
-    <form>
+  <draggable v-model="userPrompt" group="promptTemplates" class="form">
+    <form class="form-container">
       <div>{{ userPrompt[0].name }}</div>
       <div>{{ userPrompt[0].description }}</div>
       <div>{{ userPrompt[0].tag }}</div>
@@ -27,8 +27,16 @@ export default defineComponent({
 })
 </script>
 <style scoped>
-div {
-  width: 100px;
-  height: 80px;
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 50%;
+  width: 90%;
+}
+.form-container {
+  height: auto;
+  width: auto;
 }
 </style>

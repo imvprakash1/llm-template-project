@@ -13,5 +13,5 @@
 
 <h3>Project overview</h3>
 
-<p>The backend of the application is designed in such a way to expose the prompt templates for the users for or context, testing, optimization and tone. Please find more details regarding the backen application <a href="https://github.com/imvprakash1/llm-template-project/backend/readme.md">here</a></p>
-<p>The Vuejs frontend application allows the user to drag and drop a prompt template from a list of templates according to their need. These templates helps the user to design a more efficient and accurate prompt for their requirements. Please find more details regarding the backen application <a href="https://github.com/imvprakash1/llm-template-project/widget-section/readme.md">here</a></p>
+<p>The backend of the application is designed in such a way to expose the prompt templates for the users for or context, testing, optimization and tone. Please find more details regarding the backen application <a href="https://github.com/imvprakash1/llm-template-project/blob/main/backend/readme.md">here</a></p>
+<p>The Vuejs frontend application allows the user to drag and drop a prompt template from a list of templates according to their need. These templates helps the user to design a more efficient and accurate prompt for their requirements. Please find more details regarding the backen application <a href="https://github.com/imvprakash1/llm-template-project/blob/main/widget-section/README.md">here</a></p>

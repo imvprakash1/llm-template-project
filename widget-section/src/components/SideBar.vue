@@ -1,7 +1,7 @@
 <template>
   <div class="sidenav">
     <div class="prompts">
-      <draggable :list="list"
+      <draggable v-model="widgets" group="promptTemplates"
         ><WidgetItem
           class="prompt my-3"
           v-for="widget in widgets"
@@ -19,7 +19,6 @@ import WidgetItem from './WidgetItem.vue'
 import axios from 'axios'
 import { defineComponent } from 'vue'
 import { VueDraggableNext } from 'vue-draggable-next'
-import draggable from 'vuedraggable'
 
 export default defineComponent({
   components: {

@@ -1,12 +1,15 @@
 <template>
   <SideBar />
+  <UserPrompt />
 </template>
 <script>
 import SideBar from './SIdeBar.vue'
+import UserPrompt from './UserPrompt.vue'
 
 export default {
   components: {
-    SideBar
+    SideBar,
+    UserPrompt
   }
 }
 </script>

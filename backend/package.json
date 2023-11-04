@@ -14,7 +14,9 @@
   "dependencies": {
     "@rpidanny/llm-prompt-templates": "^1.3.1",
     "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "langchain": "^0.0.180"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"

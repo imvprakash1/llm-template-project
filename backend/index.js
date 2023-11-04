@@ -1,11 +1,14 @@
 import express from "express";
 import cors from "cors";
+import "dotenv/config";
 import llmPromptTemplates from "@rpidanny/llm-prompt-templates";
 const port = process.env.PORT || 5000;
+import promptRouter from "./routes/prompt.js";
 
 const app = express();
 app.use(cors());
 app.use(express.json());
+app.use(promptRouter);
 
 app.get("/", (req, res) => {
   const prompts = [];
@@ -15,22 +18,6 @@ app.get("/", (req, res) => {
     }
   }
   res.send(prompts);
-});
-
-app.get("/prompt/context", (req, res) => {
-  res.send("context");
-});
-
-app.get("/prompt/tone", (req, res) => {
-  res.send("context");
-});
-
-app.get("/prompt/testing", (req, res) => {
-  res.send("context");
-});
-
-app.get("/prompt/optimization", (req, res) => {
-  res.send("context");
 });
 
 app.listen(port, () => {

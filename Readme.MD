@@ -4,6 +4,7 @@
 
 <ul>
 <li>Take the codebase to setup in a local directory. Please note that the backen application and the frontend application are present in the same repository.</li>
+<li>Please remeber to replace the OpenAI API key the .env file in the backend folder</li>
 <li>Open the terminal in the root and run the command <code>cd backend</code> This will change the directory to the backend folder.</li>
 <li>Now we need to install the node modules for the backend application. Run the command <code>npm install</code></li>
 <li>To run the nodejs backend application run <code>npm run dev</code>.</li>

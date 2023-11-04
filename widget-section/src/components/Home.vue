@@ -2,8 +2,6 @@
 import WidgetSection from './WidgetSection.vue'
 </script>
 <template>
-  <Suspense>
-    <WidgetSection />
-  </Suspense>
+  <WidgetSection />
 </template>
 <style scoped></style>

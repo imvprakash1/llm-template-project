@@ -17,3 +17,8 @@
 
 <p>The backend of the application is designed in such a way to expose the prompt templates for the users for or context, testing, optimization and tone. Please find more details regarding the backend application <a href="https://github.com/imvprakash1/llm-template-project/blob/main/backend/readme.md">here</a></p>
 <p>The Vuejs frontend application allows the user to drag and drop a prompt template from a list of templates according to their need. These templates helps the user to design a more efficient and accurate prompt for their requirements. Please find more details regarding the frontend application <a href="https://github.com/imvprakash1/llm-template-project/blob/main/widget-section/README.md">here</a></p>
+
+<h3>Road map for the future<h3>
+<p>There are various optimization and fix opportunities to provide more exhaustive prompting.</p>
+<p>The current drag and drop functionality creates a layout shift when dropping a template from sidebar to the content area which is because while in transition the content area gets 2 elements but the UI template has sapce defined for only 1 element.</p>
+<p>Ultimately the drag and drop should be integrated with the specific requirements tab(Testing,Tone,Context and Optimization) where the user will be able to select a specific template from the group.</p>

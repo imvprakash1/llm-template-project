@@ -9,8 +9,3 @@ The VueJS based frontend application is the UI that allows users to interact wit
 
 <h6>vue-draggable-next</h6>
 <p>Node package used to implement the drag and drop functionality for prompt template selection.</p>
-
-<h3>Road map for the future<h3>
-<p>There are various optimization and fix opportunities to provide more exhaustive prompting.</p>
-<p>The current drag and drop functionality creates a layout shift when dropping a template from sidebar to the content area which is because while in transition the content area gets 2 elements but the UI template has sapce defined for only 1 element.</p>
-<p>Ultimately the drag and drop should be integrated with the specific requirements tab(Testing,Tone,Context and Optimization) where the user will be able to select a specific template from the group.</p>

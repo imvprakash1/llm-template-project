@@ -49,20 +49,19 @@ export default defineComponent({
 })
 </script>
 <style>
-/* The sidebar menu */
 .sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 25rem; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
+  height: 100%;
+  width: 25rem;
+  position: fixed;
+  z-index: 1;
+  top: 0;
   left: 0;
-  background-color: #111; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
+  background-color: #111;
+  overflow-x: hidden;
   padding-top: 20px;
+  margin-top: 56px;
 }
 
-/* The navigation menu links */
 .sidenav .prompt {
   padding: 6px 8px 6px 16px;
   text-decoration: none;

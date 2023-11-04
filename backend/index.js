@@ -17,6 +17,22 @@ app.get("/", (req, res) => {
   res.send(prompts);
 });
 
+app.get("/prompt/context", (req, res) => {
+  res.send("context");
+});
+
+app.get("/prompt/tone", (req, res) => {
+  res.send("context");
+});
+
+app.get("/prompt/testing", (req, res) => {
+  res.send("context");
+});
+
+app.get("/prompt/optimization", (req, res) => {
+  res.send("context");
+});
+
 app.listen(port, () => {
   console.log(`Server running at port: ${port}`);
 });

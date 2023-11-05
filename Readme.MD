@@ -17,6 +17,7 @@
 
 <p>The backend of the application is designed in such a way to expose the prompt templates for the users for or context, testing, optimization and tone. Please find more details regarding the backend application <a href="https://github.com/imvprakash1/llm-template-project/blob/main/backend/readme.md">here</a></p>
 <p>The Vuejs frontend application allows the user to drag and drop a prompt template from a list of templates according to their need. These templates helps the user to design a more efficient and accurate prompt for their requirements. Please find more details regarding the frontend application <a href="https://github.com/imvprakash1/llm-template-project/blob/main/widget-section/README.md">here</a></p>
+<p>Please go through the UI walk through <a href="https://github.com/imvprakash1/llm-template-project/blob/main/widget-section/public/documentation/UIwalkthroughofthefrontendapp.pdf">here</a></p>
 
 <h3>Challenges and issues</h3>
 <p style={color:black}>One of the biggest challenge I faced was optimizing the layout shift which was happening due to drag and drop feature</p>

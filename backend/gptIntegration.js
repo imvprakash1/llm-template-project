@@ -7,7 +7,6 @@ const model = new OpenAI({
 });
 
 const generateResponse = async (template, userInput) => {
-  //   console.log(template, userInput);
   try {
     const prompt = new PromptTemplate({
       template,
@@ -16,7 +15,6 @@ const generateResponse = async (template, userInput) => {
     const formatedPrompt = await prompt.format(userInput);
     const response = await model.predict(formatedPrompt);
     return response;
-    // return "response generated";
   } catch (error) {
     throw new Error(error.message);
   }

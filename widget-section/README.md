@@ -5,7 +5,7 @@ The VueJS based frontend application is the UI that allows users to interact wit
 <h4>Node packages used</h4>
 
 <h6>axios</h6>
-<p>To make http requests to the backen APIs</p>
+<p>To make http requests to the backend APIs</p>
 
 <h6>vue-draggable-next</h6>
 <p>Node package used to implement the drag and drop functionality for prompt template selection.</p>

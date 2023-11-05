@@ -33,7 +33,7 @@
 
 <h3>Follow ups</h3>
 <p>Describe your approach and technologies used.</p>
-<p>The basic setup of a nodejs server serving as the backend app to receive and transform the prompt template with user input and then interacting with OpenAI to receive responses for the same.<ul>Technologies used:<li>Nodejs with express</li><li>langChain node package</li><li>VueJS to develop the UI</li>
+<p>The basic setup of a nodejs server serving as the backend app to receive and transform the prompt template with user input and then interacting with OpenAI to receive responses for the same.<ul>Technologies used:<li>Nodejs with express</li><li>langChain node package</li><li>VueJS to develop the UI</li></ul>
 
 <p>Explain the drag-and-drop implementation and any libraries/methods used.</p>
 <p>The drag and drop feature is implemented using the vue-draggable-next library, this allows us to drag, shuffle or sort elements in a list or within lists which belong to same group.</p>
